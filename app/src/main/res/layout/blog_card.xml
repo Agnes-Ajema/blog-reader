@@ -61,5 +61,43 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvAvatar"
             app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/tvImage"
+            android:layout_width="391dp"
+            android:layout_height="248dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvBookTitle"
+            app:srcCompat="@drawable/pic" />
+
+        <TextView
+            android:id="@+id/tvPreview"
+            android:layout_width="353dp"
+            android:layout_height="198dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Cy is an Alpha wolf-shifter, heir to his father's pack. Cy is also gay, something his father won't accept. In fact, he's already lined up a female mate for him. A woman Cy hates. Cy found his true mate ten years prior. He waited and watched, praying for salvation. Rylan Jessop is from the other sides of the tracks. Not good enough for the elite of the pack. A university graduate due to a scholarship, Rylan returns home and accepts a date with Cy. They mate. At first, Rylan is horrified, he wanted other things from life. Mated, he finds himself loving Cy and taking a stand against Cy's father who is furious. Cy takes the lead and their adventure begins as they travel across America to Canada, learning to love and getting to know each other.Will they get their 'Happy Ever After'?This is the first novella in a series called 'Forever Mine'. Mature content due to a new LGBT relationship"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvImage" />
+
+        <TextView
+            android:id="@+id/tvLink"
+            android:layout_width="165dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Read More..."
+            android:textColor="#2F45C3"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPreview" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
