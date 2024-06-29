@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,7 +27,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="24dp"
-            android:text="Agnes"
+            tools:text="Agnes"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tvAvatar"
@@ -39,7 +40,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="56dp"
             android:layout_marginEnd="24dp"
-            android:text="Forever Mine"
+            tools:text="Forever Mine"
             android:textColor="#F31B1B"
             android:textColorLink="#E60E0E"
             android:textSize="24sp"
@@ -54,7 +55,7 @@
             android:layout_height="30dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:text="12th Feb 2022"
+            tools:text="12th Feb 2022"
             app:layout_constraintBottom_toBottomOf="@+id/tvBookTitle"
             app:layout_constraintEnd_toStartOf="@+id/tvBookTitle"
             app:layout_constraintHorizontal_bias="0.205"
@@ -81,7 +82,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="Cy is an Alpha wolf-shifter, heir to his father's pack. Cy is also gay, something his father won't accept. In fact, he's already lined up a female mate for him. A woman Cy hates. Cy found his true mate ten years prior. He waited and watched, praying for salvation. Rylan Jessop is from the other sides of the tracks. Not good enough for the elite of the pack. A university graduate due to a scholarship, Rylan returns home and accepts a date with Cy. They mate. At first, Rylan is horrified, he wanted other things from life. Mated, he finds himself loving Cy and taking a stand against Cy's father who is furious. Cy takes the lead and their adventure begins as they travel across America to Canada, learning to love and getting to know each other.Will they get their 'Happy Ever After'?This is the first novella in a series called 'Forever Mine'. Mature content due to a new LGBT relationship"
+            tools:text="Cy is an Alpha wolf-shifter, heir to his father's pack. Cy is also gay, something his father won't accept. In fact, he's already lined up a female mate for him. A woman Cy hates. Cy found his true mate ten years prior. He waited and watched, praying for salvation. Rylan Jessop is from the other sides of the tracks. Not good enough for the elite of the pack. A university graduate due to a scholarship, Rylan returns home and accepts a date with Cy. They mate. At first, Rylan is horrified, he wanted other things from life. Mated, he finds himself loving Cy and taking a stand against Cy's father who is furious. Cy takes the lead and their adventure begins as they travel across America to Canada, learning to love and getting to know each other.Will they get their 'Happy Ever After'?This is the first novella in a series called 'Forever Mine'. Mature content due to a new LGBT relationship"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvImage" />
@@ -93,7 +94,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:text="Read More..."
+            tools:text="Read More..."
             android:textColor="#2F45C3"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
